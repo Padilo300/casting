@@ -25,11 +25,12 @@
 // section
 @import 'pages/section/section_bg_head'     ;
 @import 'pages/section/section_filterModel' ;
-
-
+@import 'pages/section/section_PageModel'   ;
 
 // special
-@import 'special/theme_style.scss';
+@import 'special/theme_style.scss'  ;
+@import 'special/insSlider'         ;
+
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,600,900&display=swap');
 

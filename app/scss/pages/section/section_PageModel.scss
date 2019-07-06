@@ -1,0 +1,60 @@
+.section_PageModel{
+    background: #fff;
+    *{
+
+        font-family: "Open Sans" !important;
+    }
+    @media screen and (min-width:1200px){
+        max-width: 1572px !important;
+    }
+    @media screen and (min-width: 426px){
+        margin-top: -340px;
+    }
+    .title{
+        text-align: center;
+        font-size: 34px;
+        font-weight: 900;
+        text-transform: uppercase;
+        padding: 90px 0 30px 0px;
+    }
+    .rightSide{
+        .name{
+            color: #482768;
+            font-size: 24px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        .links{
+            font-size: 22px;
+            display: flex;
+            flex-direction: column;
+            margin: 30px 0 ;
+            a{
+                color: #000;
+            }
+        }
+        .info{
+            font-size: 22px;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 70px;
+            *{
+                margin: 0;
+                padding: 3px 0;
+            }
+        }
+        .description{
+
+            font-size: 22px;
+        }
+       
+    }
+    .wrapBTN{
+        display: flex;
+        justify-content: center;
+        margin: 160px auto;
+        .theme-btn--radiusFull{
+            margin: 15px;
+        }
+    }
+}
