@@ -22,12 +22,18 @@
 // pages HOME
 @import 'pages/home/first_section';
 
+// section
+@import 'pages/section/section_bg_head'     ;
+@import 'pages/section/section_filterModel' ;
+
+
 
 // special
 @import 'special/theme_style.scss';
 
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,900&display=swap');
 
 body{
     background: #fff;
-    height: 35vh;
+    font-family: 'Raleway', sans-serif;
 }

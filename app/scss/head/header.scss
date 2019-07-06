@@ -1,4 +1,8 @@
 header.header{
+    background: #00000029;
+    position: absolute;
+    width: 100%;
+    
     .nav_and_logo{
         display: flex;
         justify-content: space-between;
@@ -9,7 +13,6 @@ header.header{
         a.logo{
             display: BLOCK;
             width: 105px;
-            height: 46px;
             @media screen and (max-width: 992px){
                 margin: 10px auto 30px auto;
             }

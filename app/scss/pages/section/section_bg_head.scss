@@ -1,0 +1,7 @@
+.section_bg_head{
+    background: url('../img/casting_filter.png');
+    min-height: 600px;
+    @media screen and (max-width:425px){
+        display: none;
+    }
+}
