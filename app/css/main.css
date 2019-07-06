@@ -1,5 +1,6 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,600,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900&display=swap&subset=latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Rubik:400,500,700&display=swap&subset=cyrillic");
 body::-webkit-scrollbar {
   width: 1em; }
 
@@ -729,6 +730,92 @@ nav {
     margin: 160px auto; }
     .section_PageModel .wrapBTN .theme-btn--radiusFull {
       margin: 15px; }
+
+.section_modelAdd {
+  background: #fff; }
+  @media screen and (min-width: 1200px) {
+    .section_modelAdd {
+      max-width: 1572px !important; } }
+  @media screen and (min-width: 426px) {
+    .section_modelAdd {
+      margin-top: -340px; } }
+  .section_modelAdd .title {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 90px 0 30px 0px; }
+  .section_modelAdd form .rowInput {
+    width: 100%;
+    margin: 17px auto; }
+    .section_modelAdd form .rowInput * {
+      width: 100%; }
+    .section_modelAdd form .rowInput .themeInput {
+      height: 70px;
+      -webkit-border-radius: 50px;
+              border-radius: 50px;
+      border: 2px solid #482768;
+      color: #5e5e5e;
+      font-family: Rubik;
+      font-size: 18px;
+      font-weight: 400;
+      text-transform: uppercase;
+      padding: 0 0 0 40px; }
+      .section_modelAdd form .rowInput .themeInput::-webkit-input-placeholder {
+        color: #5e5e5e;
+        font-family: Rubik;
+        font-size: 18px;
+        font-weight: 100;
+        text-transform: uppercase; }
+      .section_modelAdd form .rowInput .themeInput::-moz-placeholder {
+        color: #5e5e5e;
+        font-family: Rubik;
+        font-size: 18px;
+        font-weight: 100;
+        text-transform: uppercase; }
+      .section_modelAdd form .rowInput .themeInput::-ms-input-placeholder {
+        color: #5e5e5e;
+        font-family: Rubik;
+        font-size: 18px;
+        font-weight: 100;
+        text-transform: uppercase; }
+      .section_modelAdd form .rowInput .themeInput::placeholder {
+        color: #5e5e5e;
+        font-family: Rubik;
+        font-size: 18px;
+        font-weight: 100;
+        text-transform: uppercase; }
+      .section_modelAdd form .rowInput .themeInput:focus {
+        outline: none; }
+    .section_modelAdd form .rowInput .themeSelect {
+      width: 100%;
+      height: 70px;
+      -webkit-border-radius: 50px;
+              border-radius: 50px;
+      border: 2px solid #482768;
+      background: transparent;
+      position: relative;
+      color: #5e5e5e;
+      font-family: Rubik;
+      font-size: 18px;
+      font-weight: 100;
+      text-transform: uppercase;
+      padding: 0 0 0 40px; }
+      .section_modelAdd form .rowInput .themeSelect:focus {
+        outline: none; }
+    .section_modelAdd form .rowInput:first-child {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+      .section_modelAdd form .rowInput:first-child .themeInput {
+        width: 700px; }
+      .section_modelAdd form .rowInput:first-child .themeSelect {
+        width: 370px; }
 
 .INS-slider {
   max-width: 570px; }

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#9CC2CE"> <!-- цвет вкладки chrome -->
+    <link rel="shortcut icon" href="img/ico/triangle.png" type="image/x-icon">
+    <title>Padilo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>		
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>		
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+                <div class="row">
+                    <div class="col col-12">
+                        <div class="nav_and_logo">
+                            <a href="/" class="logo">
+                                <img src="/img/logo.png" alt="logo">
+                            </a>
+                            <nav>
+                                <svg class="ham hamRotate ham1 mobilBar" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+                                        <path
+                                            class="line top"
+                                            d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+                                        <path
+                                            class="line middle"
+                                            d="m 30,50 h 40" />
+                                        <path
+                                            class="line bottom"
+                                            d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+                                </svg>
+                                <ul id="nav">
+                                    <li>
+                                        <a href="/">
+                                            О нас
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#vacancies" class="scrollto">
+                                            Наши услуги
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#aboute" class="scrollto">
+                                            Портфолио
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#revies" class="scrollto">
+                                            Кастинги
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#aboute" class="scrollto">
+                                            Контакты
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>    
+                        </div><!-- nav_and_logo -->
+                    </div><!-- col -->
+                </div><!-- row -->
+            </div><!-- containder -->
+    </header>
+
+    <section class="container-fluid section_bg_head" >
+        <div class="row">
+        </div><!-- row -->
+    </section><!-- container-fluid -->
+
+    <section class="container section_modelAdd" >
+        <div class="row">
+            <div class="col col-12">
+                <div class="row">
+                    <div class="container">
+                        <h1 class="title">
+                            это твой шанс, ВОСПОЛЬЗУЙСЯ ИМ!
+                        </h1>
+                        <div class="subTitle text-center">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, quod quaerat! Illo fugit, tenetur quibusdam fuga inventore iste ducimus dolorum molestiae molestias, cupiditate atque quasi necessitatibus consequatur est impedit omnis?
+                        </div>
+                    </div><!-- container -->
+                </div><!-- row -->
+                <div class="row">
+                    <div class="container" id="source-html">
+                        <div class="row">
+                            <div class="col col-12 col-md-12">
+                                <h2 class="text-center">
+                                    <br>
+                                    <b>
+                                            Заполни анкету, и мы свяжемся с тобой
+                                    </b>
+                                </h2>
+                                <form action="">
+                                    <div class="rowInput">
+                                        <input type="text" class="themeInput" placeholder="Фамилия Имя Отчество" name="name">
+                                        <select name="" id="" class="themeSelect">
+                                            <option value="0"  > Пол</option>
+                                            <option value="male"  > М</option>
+                                            <option value="famel"  > Ж</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="rowInput">
+                                        <input type="text" class="themeInput" placeholder="Номер телефона" name="phone">
+                                    </div>
+
+                                    <div class="rowInput">
+                                        <input type="text" class="themeInput" placeholder="Рост" name="growth">
+                                    </div>
+
+                                    <div class="rowInput">
+                                        <input type="text" class="themeInput" placeholder="Параметры (грудь / талия / будра)" name="parametr">
+                                    </div>
+
+                                    <div class="rowInput">
+                                        <input type="text" class="themeInput" placeholder="Возраст" name="old">
+                                    </div>
+
+                                    <div class="rowInput">
+                                        <select name="city" id="" class="themeSelect">
+                                            <option value="0"  > Город проживания</option>
+                                            <option value="0"  >Москва</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="rowInput">
+                                        <select name="eyes" id="" class="themeSelect">
+                                            <option value="1"  >Зеленый</option>
+                                            <option value="2"  >Карий</option>
+                                            <option value="3"  >Синий</option>
+                                            <option value="4"  >Серый</option>
+                                            <option value="5"  >Голубой</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="rowInput">
+                                        <textarea class="themeInput" name="text"></textarea>
+                                    </div>
+
+                                    <div class="rowInput">
+                                        <input type="text" class="themeInput">
+                                    </div>
+
+                                    <div class="rowInput">
+                                        <label for="upload_file">
+                                            Загрузите лучших своих 5 фотографий
+                                        </label>
+                                        <input type="file" id="upload_file">
+                                    </div>
+                                    
+                                </form>
+
+                                <footer>
+                                    <img src="/img/model_add_footer.png" alt="">
+                                    <div class="description">
+                                        <p>
+                                            Мы ждем именно тебя!
+                                        </p>
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt at consectetur laudantium, consequatur labore esse ut molestiae vitae dicta nesciunt, aperiam, nulla eum ullam velit? Ipsa vero reprehenderit neque deserunt!
+                                    </div><!-- description -->
+                                </footer>
+                            </div><!-- col -->
+                        </div><!-- row -->
+                    </div><!-- container -->
+                </div><!-- row -->
+            </div><!-- col -->
+        </div><!-- row -->
+    </section><!-- container-fluid -->
+
+    
+    <footer class="footer_section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col col-12">
+                    <div class="row">
+                        <div class="container">
+                            <div class="col col-12 col-md-7">
+                                <div class="leftSide">
+                                    <div class="wrapLogo">
+                                        <a href="/">
+                                            <img src="" alt="logo">
+                                        </a>
+                                    </div>
+                                    <div class="ico">
+                                        <img src="/img/лого_кастинг.svg" alt="">
+                                    </div>
+                                    <div class="subsribe">
+                                        <p>Подписывайтесь</p>
+                                        <div>
+                                            <a href="#">
+                                                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-12 col-md-5">
+                                <div class="rightSide">
+                                    <ul>
+                                        <li>
+                                            <a href="">
+                                                О нас
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                Наши услуги
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                Портфолио
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                Кастинги
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                Контакты
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <a href="mailto:casting@media.ru">
+                                        casting@media.ru
+                                    </a>
+                                </div>
+                            </div>
+                        </div><!-- col -->
+                    </div><!-- row -->
+                </div><!-- col -->
+            </div><!-- row -->
+        </div><!-- container-fluid -->
+    </footer><!-- section_footer -->
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="/js/my.js"                     defer ></script>
+    <script>
+        $(document).ready(function(){
+
+	    });
+    </script>
+
+</body>
+</html>

@@ -26,14 +26,15 @@
 @import 'pages/section/section_bg_head'     ;
 @import 'pages/section/section_filterModel' ;
 @import 'pages/section/section_PageModel'   ;
+@import 'pages/section/section_modelAdd'    ;
 
 // special
 @import 'special/theme_style.scss'  ;
 @import 'special/insSlider'         ;
 
 
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,500,700&display=swap&subset=cyrillic');
 body{
     background: #fff;
     font-family: 'Raleway', sans-serif;
