@@ -21,3 +21,8 @@
     font-weight: 700;
     line-height: 26.73px;
 }
+.theme-btn--radiusFull--XL{
+    @extend .theme-btn--radiusFull;
+    width: 387px;
+    height: 70px;
+}

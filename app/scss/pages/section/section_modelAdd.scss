@@ -14,11 +14,36 @@
         padding: 90px 0 30px 0px;
     }
     form{
+
+        button{
+            margin: 0 auto;
+            display: block;
+        }
         .rowInput{
             width: 100%;
             margin: 17px auto;
+            &.inputFile{
+                input{
+                    display: none;
+                }
+                label{
+                    height: 70px;
+                    -webkit-border-radius: 50px;
+                    border-radius: 50px;
+                    border: 2px solid #482768;
+                    color: #5e5e5e;
+                    font-family: Rubik;
+                    font-size: 18px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                    padding: 20px 0 0 40px;
+                }
+            }
             *{
                 width: 100%;
+            }
+            textarea{
+                padding: 20px 0 0 40px !important;
             }
             .themeInput{
                 height: 70px;
@@ -70,5 +95,10 @@
             }
         }
         
+    }
+    footer{
+        .description{
+            
+        }
     }
 }

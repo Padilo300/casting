@@ -4000,7 +4000,7 @@ nav {
 .ham8.active .bottom {
   stroke-dashoffset: -64px; }
 
-.theme-btn, .theme-btn--radiusFull {
+.theme-btn, .theme-btn--radiusFull, .theme-btn--radiusFull--XL {
   width: 200px;
   height: 40px;
   -webkit-border-radius: 10px;
@@ -4016,12 +4016,12 @@ nav {
   -webkit-flex-wrap: 400px;
       -ms-flex-wrap: 400px;
           flex-wrap: 400px; }
-  .theme-btn .fa-exchange, .theme-btn--radiusFull .fa-exchange {
+  .theme-btn .fa-exchange, .theme-btn--radiusFull .fa-exchange, .theme-btn--radiusFull--XL .fa-exchange {
     -webkit-transform: rotate(90deg);
         -ms-transform: rotate(90deg);
             transform: rotate(90deg); }
 
-.theme-btn--radiusFull {
+.theme-btn--radiusFull, .theme-btn--radiusFull--XL {
   -webkit-box-shadow: 0 6px 10px rgba(91, 61, 150, 0.4);
           box-shadow: 0 6px 10px rgba(91, 61, 150, 0.4);
   -webkit-border-radius: 50px;
@@ -4030,6 +4030,10 @@ nav {
   height: 50px;
   font-weight: 700;
   line-height: 26.73px; }
+
+.theme-btn--radiusFull--XL {
+  width: 387px;
+  height: 70px; }
 
 .footer_section {
   background: #000;
@@ -4351,7 +4355,7 @@ nav {
         -ms-flex-pack: center;
             justify-content: center;
     margin: 160px auto; }
-    .section_PageModel .wrapBTN .theme-btn--radiusFull {
+    .section_PageModel .wrapBTN .theme-btn--radiusFull, .section_PageModel .wrapBTN .theme-btn--radiusFull--XL {
       margin: 15px; }
 
 .section_modelAdd {
@@ -4368,11 +4372,29 @@ nav {
     font-weight: 900;
     text-transform: uppercase;
     padding: 90px 0 30px 0px; }
+  .section_modelAdd form button {
+    margin: 0 auto;
+    display: block; }
   .section_modelAdd form .rowInput {
     width: 100%;
     margin: 17px auto; }
+    .section_modelAdd form .rowInput.inputFile input {
+      display: none; }
+    .section_modelAdd form .rowInput.inputFile label {
+      height: 70px;
+      -webkit-border-radius: 50px;
+      border-radius: 50px;
+      border: 2px solid #482768;
+      color: #5e5e5e;
+      font-family: Rubik;
+      font-size: 18px;
+      font-weight: 400;
+      text-transform: uppercase;
+      padding: 20px 0 0 40px; }
     .section_modelAdd form .rowInput * {
       width: 100%; }
+    .section_modelAdd form .rowInput textarea {
+      padding: 20px 0 0 40px !important; }
     .section_modelAdd form .rowInput .themeInput {
       height: 70px;
       -webkit-border-radius: 50px;
@@ -4411,7 +4433,7 @@ nav {
       .section_modelAdd form .rowInput .themeInput:focus {
         outline: none; }
     .section_modelAdd form .rowInput .themeSelect {
-      width: 370px;
+      width: 100%;
       height: 70px;
       -webkit-border-radius: 50px;
               border-radius: 50px;
@@ -4437,6 +4459,8 @@ nav {
               justify-content: space-between; }
       .section_modelAdd form .rowInput:first-child .themeInput {
         width: 700px; }
+      .section_modelAdd form .rowInput:first-child .themeSelect {
+        width: 370px; }
 
 .INS-slider {
   max-width: 570px; }
