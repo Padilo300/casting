@@ -20,6 +20,29 @@
             *{
                 width: 100%;
             }
+            &.inputFile{
+                label{
+                    height: 70px;
+                    border-radius: 50px;
+                    border: 2px solid #482768;
+                    color: #5e5e5e;
+                    font-family: Rubik;
+                    font-size: 18px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                    padding: 0 0 0 40px;
+                    line-height: 70px;
+                    background: url('../img/ico/clip.svg');
+                    background-repeat: no-repeat;
+                    background-position: 97% center;
+                }
+                input{
+                    display: none;
+                }
+            }
+            textarea{
+                padding: 20px 0 0 40px !important;
+            }
             .themeInput{
                 height: 70px;
                 border-radius: 50px;
@@ -54,6 +77,12 @@
                 font-weight: 100;
                 text-transform: uppercase;
                 padding: 0 0 0 40px;
+                background: url('../img/ico/down-arrow.png');
+                background-repeat: no-repeat;
+                background-position: 97% center;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
                 &:focus{
                     outline: none;
                 }
